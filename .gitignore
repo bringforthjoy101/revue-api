@@ -1,0 +1,8 @@
+/node_modules
+/build
+# /seeders
+sequelizeData.json
+config.json
+.env
+dev.ts
+test.js
