@@ -8,8 +8,7 @@
     "serve": "nodemon app.ts",
     "build": "tsc --project ./",
     "start": "npm run build && node ./build/app.js",
-    "db": "mysql -h 127.0.0.1 -u root -pP@ssword123 travoofy",
-    "db:prod": "mysql -h wb39lt71kvkgdmw0.cbetxkdyhwsb.us-east-1.rds.amazonaws.com -u xo5fmo5buhxrb6mb -pvinblx3n0yup1hbm s9s72d37d9kwp09u -P 3306"
+    "db": "mysql -h 127.0.0.1 -u root -pP@ssword123 travoofy"
   },
   "author": "Adelugba Emmanuel Bringforthjoy",
   "license": "ISC",
