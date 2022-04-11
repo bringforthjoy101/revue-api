@@ -53,8 +53,7 @@ export const commentEmailTemplateData = ({ names, comment }: { names: string; co
 		mailBody: `
 			<p style="font-weight: 600; font-size: 18px; margin-bottom: 0;">Hello, ${names.split(' ')[0]}</p>
 			<p>someone droped a comment for you.</p>
-			<br/>
-			<p>${comment}</p>
+			<p><i>"${comment}"</i></p>
 		`,
 	};
 };

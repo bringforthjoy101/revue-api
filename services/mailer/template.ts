@@ -932,10 +932,10 @@ export const mailTemplate = ({ subject, body }: OtpMailTemplateDataType) => {
           <table style="font-family: 'Montserrat',Arial,sans-serif; width: 600; margin-left: auto; margin-right: auto; margin-top: 2;" width="600" cellpadding="0" cellspacing="0" role="presentation">
             <tr>
               <td class="sm-px-24" style="--bg-opacity: 1; background-color: #ffffff; background-color: rgba(255, 255, 255, var(--bg-opacity)); border-radius: 4px; font-family: Montserrat, -apple-system, 'Segoe UI', sans-serif; font-size: 14px; line-height: 24px; padding: 48px; text-align: left; --text-opacity: 1; color: #626262; color: rgba(98, 98, 98, var(--text-opacity));" bgcolor="rgba(255, 255, 255, var(--bg-opacity))" align="left">
-                <a href="${'https://gethomes.com'}">
+                <a href="${'#'}">
                   <img src="${
 										config.LOGO
-									}" width="120" alt="Get Homes" style="border: 0; max-width: 100%; line-height: 100%; vertical-align: middle; display: block; margin-left: auto; margin-right: auto;">
+									}" width="120" alt="Revue App" style="border: 0; max-width: 100%; line-height: 100%; vertical-align: middle; display: block; margin-left: auto; margin-right: auto;">
                 </a>
 
                 
@@ -953,7 +953,7 @@ export const mailTemplate = ({ subject, body }: OtpMailTemplateDataType) => {
                   Not sure why you received this email? Please
                   <a href="mailto:${'mail@gethomes.com'}" class="hover-underline" style="--text-opacity: 1; color: #7367f0; text-decoration: none;">let us know</a>.
                 </p>
-                <p style="margin: 0 0 16px;">Thanks, <br>The Get Homes Team</p>
+                <p style="margin: 0 0 16px;">Thanks, <br>The Revue Team</p>
                 <p style="cursor: default; margin-bottom: 16px;">
                   <a href="${'https://www.facebook.com/'}" style="--text-opacity: 1; color: #263238; color: rgba(38, 50, 56, var(--text-opacity)); text-decoration: none;"><img src="https://res.cloudinary.com/bringforthjoy/image/upload/v1612088043/INVESTA/social/036-facebook_sbyrqb.png" width="17" alt="Facebook" style="border: 0; max-width: 100%; line-height: 100%; vertical-align: middle; margin-right: 12px;"></a>
                   
